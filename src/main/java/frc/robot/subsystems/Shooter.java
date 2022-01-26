@@ -19,13 +19,13 @@ public class Shooter extends SubsystemBase{
     
     
     public Shooter(){
-        super();
+        /*super();
         secondShooterMotor.follow(firstShooterMotor);
-        thirdShooterMotor.follow(firstShooterMotor);
+        thirdShooterMotor.follow(firstShooterMotor);*/
     }
 
     public void launch(int speed){
-        firstShooterMotor.set(speed);
+        //firstShooterMotor.set(speed);
     }
 }
 
