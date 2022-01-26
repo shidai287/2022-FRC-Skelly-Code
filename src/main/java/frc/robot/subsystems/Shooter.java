@@ -8,7 +8,7 @@ import frc.robot.Constants;
 import com.revrobotics.CANSparkMax.IdleMode;
 import com.revrobotics.CANSparkMaxLowLevel.MotorType;
 
-
+//this is a comment 
 public class Shooter extends SubsystemBase{
 
     CANSparkMax firstShooterMotor = new CANSparkMax(Constants.ShooterConsts.CAN_ADDRESS_FIRST_SHOOTER_MOTOR, MotorType.kBrushless);
