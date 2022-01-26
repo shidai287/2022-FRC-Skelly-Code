@@ -11,9 +11,12 @@ import com.revrobotics.CANSparkMaxLowLevel.MotorType;
 
 public class Shooter extends SubsystemBase{
 
-    CANSparkMax firstShooterMotor = new CANSparkMax(Constants.ShooterConsts.CAN_ADDRESS_FIRST_SHOOTER_MOTOR, MotorType.kBrushless);
-    CANSparkMax secondShooterMotor = new CANSparkMax(Constants.ShooterConsts.CAN_ADDRESS_SECOND_SHOOTER_MOTOR, MotorType.kBrushless);
-    CANSparkMax thirdShooterMotor = new CANSparkMax(Constants.ShooterConsts.CAN_ADDRESS_THIRD_SHOOTER_MOTOR, MotorType.kBrushless);
+    CANSparkMax TopConveyer = new CANSparkMax(Constants.ShooterConstants.CAN_ADDRESS_TOP_CONVERYER_MOTOR, MotorType.kBrushless);
+    CANSparkMax BootomConveyer = new CANSparkMax(Constants.ShooterConstants.CAN_ADDRESS_BOTTOM_CONVERYER_MOTOR, MotorType.kBrushless);
+    CANSparkMax TopShooter = new CANSparkMax(Constants.ShooterConstants.CAN_ADDRESS_TOP_SHOOTER_WHEEL, MotorType.kBrushless);
+    CANSparkMax BottomShooter = new CANSparkMax(Constants.ShooterConstants.CAN_ADDRESS_BOTTOM_SHOOTER_WHEEL, MotorType.kBrushless);
+    //Kicker still required!
+    
     
     public Shooter(){
         super();
