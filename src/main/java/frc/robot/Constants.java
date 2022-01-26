@@ -14,12 +14,14 @@ package frc.robot;
  */
 public final class Constants {
 
-    public static final class ShooterConsts {
-        public static final int CAN_ADDRESS_FIRST_SHOOTER_MOTOR = 6;
-        public static final int CAN_ADDRESS_SECOND_SHOOTER_MOTOR = 7;
-        public static final int CAN_ADDRESS_THIRD_SHOOTER_MOTOR = 8;
-
+    public static final class ShooterConstants {
+        public static final int CAN_ADDRESS_TOP_SHOOTER_WHEEL = 13;
+        public static final int CAN_ADDRESS_BOTTOM_SHOOTER_WHEEL = 2;
+        public static final int CAN_ADDRESS_TOP_CONVERYER_MOTOR = 11;
+        public static final int CAN_ADDRESS_BOTTOM_CONVERYER_MOTOR = 4;
+        public static final int CAN_ADDRESS_KICKER_MOTOR = 5;
     }
+
 
 
 }
